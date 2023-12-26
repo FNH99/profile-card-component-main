@@ -17,11 +17,28 @@ body {
 }
 
 .container {
+    display: block;
     max-width: 300px;
     margin: 0 auto;
     margin-top: 80px;
     margin-bottom: 80px;
+
     background-color: white;
     border-radius: 1rem;
-    box-shadow: 10px 10px 10px;
+    box-shadow: 5px 5px 30px rgba(35, 35, 35, 0.2);
+}
+
+.container .card-bg {
+    width: 100%;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.container .user-photo {
+    display: block;
+    margin: 0 auto;
+    border-radius: 4rem;
+    transform: translateY(-50px);
+    border: 7px solid white;
+    outline-color: invert;
 }
