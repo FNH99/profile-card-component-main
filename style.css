@@ -22,6 +22,7 @@ body {
     margin: 0 auto;
     margin-top: 80px;
     margin-bottom: 80px;
+    text-align: center;
 
     background-color: white;
     border-radius: 1rem;
@@ -34,11 +35,29 @@ body {
     border-top-left-radius: 1rem;
 }
 
+.profile-text {
+    margin-top: -2rem;
+    margin-bottom: 1.5rem;
+}
+.profile-text p {
+    margin-top: 0.5rem;
+}
+
 .container .user-photo {
     display: block;
     margin: 0 auto;
     border-radius: 4rem;
-    transform: translateY(-50px);
+    transform: translateY(-50%);
     border: 7px solid white;
     outline-color: invert;
+}
+
+.user-stat {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid;
+}
+
+.user-stat .stat-card {
+    margin: 1rem;
 }
