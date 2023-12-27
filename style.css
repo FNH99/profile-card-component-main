@@ -41,6 +41,12 @@ body {
 }
 .profile-text p {
     margin-top: 0.5rem;
+    color: var(--Dark-gray);
+}
+
+.profile-text span {
+    color: var(--Dark-gray);
+    font-weight: 400;
 }
 
 .container .user-photo {
@@ -56,8 +62,18 @@ body {
     display: flex;
     justify-content: center;
     border-top: 1px solid;
+    border-color: rgb(204, 203, 203);
 }
 
 .user-stat .stat-card {
     margin: 1rem;
+}
+
+.user-stat p {
+    color: var(--Dark-gray);
+    margin-top: 0.25rem;
+    margin-bottom: 0.75rem;
+    font-size: 0.75rem;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
 }
